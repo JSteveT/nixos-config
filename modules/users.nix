@@ -6,9 +6,6 @@
     description = "James Taylor";
     extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [
-      git
-      wget
-      curl
       zed-editor
       vscode
       libreoffice
@@ -23,7 +20,5 @@
       pciutils
     ];
   };
-
-  virtualisation.docker.enable = true;
-
 }
+

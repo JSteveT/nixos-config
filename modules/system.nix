@@ -21,7 +21,6 @@
   services.printing.enable = true;
 
   # Sound via Pipewire
-  hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;

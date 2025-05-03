@@ -8,6 +8,7 @@
     ./modules/desktop.nix
     ./modules/users.nix
     ./modules/nvidia.nix
+    ./modules/packages.nix 
   ];
 	
    system.stateVersion = "24.11";
